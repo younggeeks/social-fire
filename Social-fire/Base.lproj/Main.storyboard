@@ -103,6 +103,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJ6-16-RrU">
+                                <rect key="frame" x="122" y="231" width="130" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="7eO-HB-Eyh"/>
+                                    <constraint firstAttribute="width" constant="130" id="8Qt-xT-OT3"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="fbLoginBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xL6-pO-IlK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -122,8 +132,10 @@
                             <constraint firstItem="NUw-Hf-W8y" firstAttribute="top" secondItem="c3e-Zq-dqs" secondAttribute="bottom" constant="20" id="h3i-2i-RUS"/>
                             <constraint firstItem="D9D-gl-mYG" firstAttribute="top" secondItem="nre-Db-wf5" secondAttribute="bottom" constant="20" id="i1p-Fu-3rz"/>
                             <constraint firstItem="c3e-Zq-dqs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="75" id="iWb-hq-4YH"/>
+                            <constraint firstItem="oJ6-16-RrU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="l6B-da-6AG"/>
                             <constraint firstItem="c3e-Zq-dqs" firstAttribute="top" secondItem="ZZ2-6w-KyR" secondAttribute="bottom" constant="20" id="rg8-FK-XZG"/>
                             <constraint firstItem="D9D-gl-mYG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ryK-qj-0VP"/>
+                            <constraint firstItem="oJ6-16-RrU" firstAttribute="top" secondItem="D9D-gl-mYG" secondAttribute="bottom" constant="20" id="tHK-CX-MPv"/>
                             <constraint firstItem="G5d-52-Wqb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uRu-0w-cKm"/>
                             <constraint firstItem="srg-GB-dNK" firstAttribute="top" secondItem="D9D-gl-mYG" secondAttribute="bottom" constant="20" id="yGp-SC-Dcw"/>
                         </constraints>
