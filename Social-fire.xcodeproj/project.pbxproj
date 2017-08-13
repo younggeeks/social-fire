@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E9CD9821F40B18300029D93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CD9811F40B18300029D93 /* AppDelegate.swift */; };
+		9E9CD9841F40B18300029D93 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CD9831F40B18300029D93 /* SignInVC.swift */; };
+		9E9CD9871F40B18300029D93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9CD9851F40B18300029D93 /* Main.storyboard */; };
+		9E9CD9891F40B18300029D93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9CD9881F40B18300029D93 /* Assets.xcassets */; };
+		9E9CD98C1F40B18300029D93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E9CD98A1F40B18300029D93 /* LaunchScreen.storyboard */; };
+		9E9CD9941F40B1C700029D93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9E9CD9931F40B1C700029D93 /* GoogleService-Info.plist */; };
+		D5C024D7E88FC3C81F1A08B3 /* Pods_Social_fire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E115035599DF58D57CFB7AE /* Pods_Social_fire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E115035599DF58D57CFB7AE /* Pods_Social_fire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Social_fire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		251B8455E049D6F0EF19C453 /* Pods-Social-fire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social-fire.release.xcconfig"; path = "Pods/Target Support Files/Pods-Social-fire/Pods-Social-fire.release.xcconfig"; sourceTree = "<group>"; };
+		9E9CD97E1F40B18300029D93 /* Social-fire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social-fire.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E9CD9811F40B18300029D93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E9CD9831F40B18300029D93 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		9E9CD9861F40B18300029D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E9CD9881F40B18300029D93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E9CD98B1F40B18300029D93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E9CD98D1F40B18300029D93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E9CD9931F40B1C700029D93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D858CBE48C9176B6550ED61E /* Pods-Social-fire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Social-fire.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Social-fire/Pods-Social-fire.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E9CD97B1F40B18300029D93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C024D7E88FC3C81F1A08B3 /* Pods_Social_fire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52A164C1CB4F4A604B5B58C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D858CBE48C9176B6550ED61E /* Pods-Social-fire.debug.xcconfig */,
+				251B8455E049D6F0EF19C453 /* Pods-Social-fire.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E9CD9751F40B18300029D93 = {
+			isa = PBXGroup;
+			children = (
+				9E9CD9801F40B18300029D93 /* Social-fire */,
+				9E9CD97F1F40B18300029D93 /* Products */,
+				52A164C1CB4F4A604B5B58C5 /* Pods */,
+				E509612CD9E1C1906E26FDF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9E9CD97F1F40B18300029D93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E9CD97E1F40B18300029D93 /* Social-fire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E9CD9801F40B18300029D93 /* Social-fire */ = {
+			isa = PBXGroup;
+			children = (
+				9E9CD9811F40B18300029D93 /* AppDelegate.swift */,
+				9E9CD9931F40B1C700029D93 /* GoogleService-Info.plist */,
+				9E9CD9831F40B18300029D93 /* SignInVC.swift */,
+				9E9CD9851F40B18300029D93 /* Main.storyboard */,
+				9E9CD9881F40B18300029D93 /* Assets.xcassets */,
+				9E9CD98A1F40B18300029D93 /* LaunchScreen.storyboard */,
+				9E9CD98D1F40B18300029D93 /* Info.plist */,
+			);
+			path = "Social-fire";
+			sourceTree = "<group>";
+		};
+		E509612CD9E1C1906E26FDF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E115035599DF58D57CFB7AE /* Pods_Social_fire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E9CD97D1F40B18300029D93 /* Social-fire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E9CD9901F40B18300029D93 /* Build configuration list for PBXNativeTarget "Social-fire" */;
+			buildPhases = (
+				D392BE93AA42E0493D749943 /* [CP] Check Pods Manifest.lock */,
+				9E9CD97A1F40B18300029D93 /* Sources */,
+				9E9CD97B1F40B18300029D93 /* Frameworks */,
+				9E9CD97C1F40B18300029D93 /* Resources */,
+				6B25AC4C0525DBBA31BEE629 /* [CP] Embed Pods Frameworks */,
+				2703479C0141CEA21CD9F916 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Social-fire";
+			productName = "Social-fire";
+			productReference = 9E9CD97E1F40B18300029D93 /* Social-fire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E9CD9761F40B18300029D93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = younggeeks;
+				TargetAttributes = {
+					9E9CD97D1F40B18300029D93 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UA4FAY9D7V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9E9CD9791F40B18300029D93 /* Build configuration list for PBXProject "Social-fire" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E9CD9751F40B18300029D93;
+			productRefGroup = 9E9CD97F1F40B18300029D93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E9CD97D1F40B18300029D93 /* Social-fire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E9CD97C1F40B18300029D93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E9CD98C1F40B18300029D93 /* LaunchScreen.storyboard in Resources */,
+				9E9CD9891F40B18300029D93 /* Assets.xcassets in Resources */,
+				9E9CD9871F40B18300029D93 /* Main.storyboard in Resources */,
+				9E9CD9941F40B1C700029D93 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2703479C0141CEA21CD9F916 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Social-fire/Pods-Social-fire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B25AC4C0525DBBA31BEE629 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Social-fire/Pods-Social-fire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D392BE93AA42E0493D749943 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E9CD97A1F40B18300029D93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E9CD9841F40B18300029D93 /* SignInVC.swift in Sources */,
+				9E9CD9821F40B18300029D93 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E9CD9851F40B18300029D93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E9CD9861F40B18300029D93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E9CD98A1F40B18300029D93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E9CD98B1F40B18300029D93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E9CD98E1F40B18300029D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E9CD98F1F40B18300029D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E9CD9911F40B18300029D93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D858CBE48C9176B6550ED61E /* Pods-Social-fire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UA4FAY9D7V;
+				INFOPLIST_FILE = "Social-fire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftech.Social-fire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9E9CD9921F40B18300029D93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251B8455E049D6F0EF19C453 /* Pods-Social-fire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UA4FAY9D7V;
+				INFOPLIST_FILE = "Social-fire/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftech.Social-fire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E9CD9791F40B18300029D93 /* Build configuration list for PBXProject "Social-fire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E9CD98E1F40B18300029D93 /* Debug */,
+				9E9CD98F1F40B18300029D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E9CD9901F40B18300029D93 /* Build configuration list for PBXNativeTarget "Social-fire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E9CD9911F40B18300029D93 /* Debug */,
+				9E9CD9921F40B18300029D93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E9CD9761F40B18300029D93 /* Project object */;
+}

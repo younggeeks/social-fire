@@ -1,0 +1,6 @@
+framework module Pods_Social_fire {
+  umbrella header "Pods-Social-fire-umbrella.h"
+
+  export *
+  module * { export * }
+}
